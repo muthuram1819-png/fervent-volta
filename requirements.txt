@@ -2,11 +2,13 @@ fastapi
 uvicorn
 sqlalchemy
 pydantic
-python-multipart
+passlib
+python-jose[cryptography]
 pandas
 numpy
 networkx
+requests
+python-multipart
 scipy
 qiskit
 qiskit-aer
-python-jose[cryptography]
