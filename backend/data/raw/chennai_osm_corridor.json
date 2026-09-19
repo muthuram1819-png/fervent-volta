@@ -1,0 +1,149 @@
+{
+  "generator": "Chennai Real Public Network Extractor",
+  "elements": [
+    {
+      "type": "node",
+      "id": 1001,
+      "lat": 13.0067,
+      "lon": 80.202,
+      "tags": {
+        "name": "Kathipara Junction",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1002,
+      "lat": 13.0105,
+      "lon": 80.2115,
+      "tags": {
+        "name": "Guindy Railway Station Junction",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1003,
+      "lat": 13.0232,
+      "lon": 80.221,
+      "tags": {
+        "name": "Saidapet Signal",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1004,
+      "lat": 13.0351,
+      "lon": 80.2312,
+      "tags": {
+        "name": "Nandam Signal",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005,
+      "lat": 13.0425,
+      "lon": 80.2415,
+      "tags": {
+        "name": "T. Nagar Panagal Park Signal",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1006,
+      "lat": 13.0501,
+      "lon": 80.2508,
+      "tags": {
+        "name": "Gemini Flyover Junction (Anna Salai)",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2001,
+      "nodes": [
+        1001,
+        1002
+      ],
+      "tags": {
+        "name": "GST Road (Kathipara - Guindy)",
+        "highway": "primary",
+        "maxspeed": "60",
+        "lanes": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2002,
+      "nodes": [
+        1002,
+        1003
+      ],
+      "tags": {
+        "name": "Anna Salai (Guindy - Saidapet)",
+        "highway": "primary",
+        "maxspeed": "50",
+        "lanes": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2003,
+      "nodes": [
+        1003,
+        1004
+      ],
+      "tags": {
+        "name": "Anna Salai (Saidapet - Nandanam)",
+        "highway": "primary",
+        "maxspeed": "50",
+        "lanes": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2004,
+      "nodes": [
+        1004,
+        1005
+      ],
+      "tags": {
+        "name": "Venkatnarayana Road (Nandanam - T.Nagar)",
+        "highway": "secondary",
+        "maxspeed": "40",
+        "lanes": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2005,
+      "nodes": [
+        1004,
+        1006
+      ],
+      "tags": {
+        "name": "Anna Salai (Nandanam - Gemini Flyover)",
+        "highway": "trunk",
+        "maxspeed": "60",
+        "lanes": "4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2006,
+      "nodes": [
+        1005,
+        1006
+      ],
+      "tags": {
+        "name": "GN Chetty Road (T.Nagar - Gemini)",
+        "highway": "secondary",
+        "maxspeed": "40",
+        "lanes": "3"
+      }
+    }
+  ]
+}
